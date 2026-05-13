@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #header {
     position: relative;
     height: 100vh;
@@ -69,6 +75,7 @@
 .brands .card-shadow {
     width: 150px;
     height: 150px;
+    text-align: center;
 }
 .products a{
     color: white;
@@ -83,7 +90,63 @@
 }
 .card-shadow:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: transform 0.5s ease;
     border: 1px solid red;
     color: white;
 }
+.products .card-shadow {
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+/* product Crad */
+
+.product-card {
+      transition: all .3s ease;
+    }
+
+    .product-card:hover{
+      transform:translateY(-10px);
+    }
+
+    .product-img{
+      transition:.4s;
+    }
+
+    .product-card:hover .product-img{
+      transform:scale(1.2);
+      transform: translateY(-10px);
+    }
+
+    .brand-logo{
+      width:45px;
+      height:45px;
+      top:10px;
+      right:10px;
+      opacity: 0;
+    }
+
+    .product-card:hover .brand-logo{
+      opacity:1;
+      transform:translateY(5px);
+    }
+
+    .details-btn{
+      opacity:0;
+      transform:translateY(20px);
+      transition:.3s;
+    }
+
+    .product-card:hover .details-btn{
+      opacity:1;
+      transform:translateY(0);
+    }
+
+
+
+
+

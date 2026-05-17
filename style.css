@@ -6,7 +6,7 @@
 
 #header {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
     background-color: rgba(0, 0, 0, .3);
 }
@@ -57,7 +57,7 @@
     background-color: red;
     color: white;
     padding: 10px;
-    text-align: center;
+    text-align: right;
     border-radius: 50%;
 }
 .slider-btn:hover {
@@ -69,7 +69,6 @@
 }
 .card-shadow {
     border-radius: 10px;
-    background-color: red;
     
 }
 .brands .card-shadow {
@@ -101,6 +100,7 @@
     align-items: center;
     height: 70px;
     width: 100%;
+       background-color: red;
 }
 
 /* product Crad */
